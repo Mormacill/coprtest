@@ -4,6 +4,8 @@ Release:    1
 Summary:    Most simple RPM package
 License:    FIXME
 
+BuildRequires: gcc
+
 %description
 This is my first RPM package, which does say Hello World.
 
