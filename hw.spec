@@ -3,7 +3,7 @@ Version:    1
 Release:    1
 Summary:    Most simple RPM package
 License:    FIXME
-Source0: https://github.com/Mormacill/coprtest/archive/refs/tags/1.1.tar.gz
+Source0: https://github.com/Mormacill/hw/archive/refs/tags/1.tar.gz
 BuildRequires: gcc
 
 %description
