@@ -10,7 +10,7 @@ BuildRequires: gcc
 This is my first RPM package, which does say Hello World.
 
 %prep
-wget https://raw.githubusercontent.com/Mormacill/coprtest/main/hw.c
+curl https://raw.githubusercontent.com/Mormacill/coprtest/main/hw.c --output hw.c
 
 %build
 gcc hw.c
