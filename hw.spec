@@ -13,14 +13,14 @@ This is my first RPM package, which does say Hello World.
 %setup -q
 
 %build
-gcc hw.c
+gcc -g -o hw hw.c
 
 %install
 mkdir -p %{buildroot}/usr/bin/
-install -m 755 a.out %{buildroot}/usr/bin/a.out
+install -m 755 hw %{buildroot}/usr/bin/hw
 
 %files
-/usr/bin/a.out
+/usr/bin/hw
 
 %changelog
 # let's skip this for now
